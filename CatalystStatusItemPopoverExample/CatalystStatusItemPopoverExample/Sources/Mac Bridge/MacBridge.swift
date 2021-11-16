@@ -71,6 +71,7 @@ private class WindowCoordinator {
             self.window.standardWindowButton(.closeButton)?.isHidden = true
             self.window.standardWindowButton(.miniaturizeButton)?.isHidden = true
             self.window.standardWindowButton(.zoomButton)?.isHidden = true
+            self.window.collectionBehavior = .canJoinAllSpaces
             self.window.alphaValue = 0.0
         }
         
